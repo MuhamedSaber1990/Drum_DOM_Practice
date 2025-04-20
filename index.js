@@ -55,8 +55,11 @@ function checker(event) {
 }
 function addAnimation(currentKey) {
   var pressedKey = document.querySelector("." + currentKey);
-  pressedKey.classList.add("pressed");
-  setTimeout(function () {
-    pressedKey.classList.remove("pressed");
-  }, 100);
+  if (pressedKey) {
+    pressedKey.classList.add("pressed");
+    setTimeout(function () {
+      pressedKey.classList.remove("pressed");
+    }, 100);
+  }
 }
+
