@@ -26,7 +26,7 @@
 
 ## Demo
 
-[Add a live demo link here if available.(https://muhamedsaber1990.github.io/Drum_DOM_Practice/)
+https://muhamedsaber1990.github.io/Drum_DOM_Practice/
 
 ## Getting Started
 
